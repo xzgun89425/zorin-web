@@ -1,10 +1,34 @@
 <script setup>
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+import { Pagination, Autoplay } from "swiper";
+
 const store = useHomeStore();
 </script> 
 
 <template>
   <Container>
-    <div class="w-full h-80 bg-primary"></div>
+    <div class="w-full">
+      <Swiper
+        :pagination="{
+          el: '#dating-processes',
+          bulletClass: 'bullet',
+          bulletActiveClass: 'is-active',
+          clickable: true,
+        }"
+        :autoplay="{ delay: 2500, disableOnInteraction: false }"
+        loop
+        :modules="[Pagination, Autoplay]"
+      >
+        <SwiperSlide v-for="i in 3" :key="i">
+          <!-- <div>
+                        <img class="min-h-[400px] w-full h-full object-cover" :src="item.src" alt="">
+                    </div> -->
+          <div class="w-full h-96 bg-primary"></div>
+        </SwiperSlide>
+      </Swiper>
+      <div id="dating-processes" class="swiper-pagination my-2"></div>
+    </div>
     <ContainerDiv :title="'About Us'">
       <div class="bg-primary w-full h-80"></div>
     </ContainerDiv>
