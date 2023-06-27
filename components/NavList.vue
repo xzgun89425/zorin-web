@@ -16,7 +16,7 @@ const props = defineProps({
     <div
       v-if="open"
       id="nav"
-      class="flex flex-col items-center gap-2 md:hidden sticky top-[64px] z-50 w-full bg-primary/95 text-white p-2"
+      class="flex flex-col items-center gap-2 md:hidden fixed top-[64px] z-50 w-full bg-primary/95 text-white p-2"
     >
       <NuxtLink
         v-for="(item, i) in list"
