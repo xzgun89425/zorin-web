@@ -2,19 +2,18 @@
 const props = defineProps({
   title: {
     type: String,
-    default: "標題",
+    default: "",
   },
 });
 </script>
 
 <template>
   <div class="w-full my-8">
-    <h1 class="w-full font-bold text-3xl text-center text-primary my-12">
+    <h1 v-if="title !== ''" class="w-full index-font tracking-wider text-3xl text-center text-primary my-8 lg:my-12">
       {{ title }}
     </h1>
     <slot />
   </div>
 </template>
 
-<style>
-</style>
+<style></style>

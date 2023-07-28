@@ -1,9 +1,12 @@
-export const useAddCount = () => {
+export const useAddCount = (limit) => {
+    console.log(limit)
     const count = ref(0)
 
-    const addCount = () => {
-        count.value++
-    }
+    // const time = setInterval(() => {
+    //     count.value++
+    // }, 10)
+
+    const addCount = () => {}
 
     return {
         count,

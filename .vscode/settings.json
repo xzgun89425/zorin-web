@@ -6,7 +6,7 @@
     },
     "[vue]": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "octref.vetur"
+        "editor.defaultFormatter": "Vue.volar"
     },
     "[css]": {
         "editor.formatOnSave": true,
