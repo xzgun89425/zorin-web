@@ -7,7 +7,7 @@ export default defineNuxtConfig({
             meta: [
                 { name: 'description', content: 'Zorin Studio' },
                 { property: 'og:title', content: 'Zorin Studio' },
-                { property: 'og:url', content: 'http://localhost:3000/' },
+                { property: 'og:url', content: 'https://zorin-studio.com/' },
                 { property: 'og:description', content: 'Zorin Studio' },
             ],
         },
@@ -29,5 +29,24 @@ export default defineNuxtConfig({
                 autoImports: ['defineStore', 'acceptHMRUpdate'],
             },
         ],
+        '@nuxtjs/i18n',
     ],
+    i18n: {
+        strategy: 'no_prefix',
+        locales: [
+            {
+                code: 'zh-TW',
+                file: 'zh-TW.json',
+            },
+            {
+                code: 'en-US',
+                file: 'en-US.json',
+            },
+        ],
+        langDir: 'language',
+        defaultLocale: 'en-US',
+        detectBrowserLanguage: {
+            useCookie: true,
+        },
+    },
 })

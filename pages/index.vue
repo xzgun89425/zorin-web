@@ -5,6 +5,8 @@ import { Autoplay } from "swiper";
 
 const store = useHomeStore();
 const { list } = useProductStore();
+// const { data: list } = await useFetch('/api/products');
+
 </script> 
 
 <template>
@@ -20,16 +22,16 @@ const { list } = useProductStore();
       </Swiper>
     </Container>
 
-    <Container :title="'Zorin Audio New Products'">
+    <Container :title="'home.newProducts'">
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 lg:p-0">
-        <div v-for="i in list" :key="i.id" class="col-span-1 h-auto bg-gray-100 w-full shadow shadow-gray-400 rounded">
+        <div v-for="i in list" :key="i._id" class="col-span-1 h-auto bg-gray-100 w-full shadow shadow-gray-400 rounded">
           <div class="aspect-w-3 aspect-h-2">
-            <img :src="i.src" class="object-cover object-center" alt="">
+            <img :src="i.img" class="object-cover object-center" alt="">
           </div>
           <div class="p-4 flex flex-col justify-between items-end">
             <div class="space-y-3 mb-3 w-full">
-              <h1 class="text-base lg:text-lg font-bold">{{ i.title }}</h1>
-              <p class="text-xs h-[32px] lg:h-[48px] overflow-hidden text-ellipsis">{{ i.detail }}</p>
+              <h1 class="text-base lg:text-lg font-bold">{{ i.name }}</h1>
+              <p class="text-xs h-[32px] lg:h-[48px] overflow-hidden text-ellipsis">{{ i.content }}</p>
             </div>
             <button class="bg-gray-200 hover:bg-gray-300 text-xs w-20 py-2 rounded text-gray-600">Read More</button>
           </div>
@@ -49,10 +51,10 @@ const { list } = useProductStore();
             <div class="w-full lg:w-1/2">
               <div class="text-gray-700">
                 <div class="flex justify-between items-end border-b border-gray-400 mb-4 pb-4">
-                  <h3 class="text-4xl tracking-widest index-font text-primary ">Zorin
+                  <h3 class="text-4xl tracking-widest text-primary Pacifica">Zorin
                     Audio
                   </h3>
-                  <p class="text-sm index-font text-primary">Gramophone design - produced in Taiwan</p>
+                  <p class="text-sm index-font text-primary">{{ $t('header.sublogo') }}</p>
                 </div>
                 <p>
                   臺灣唱片機製造商，
@@ -65,7 +67,7 @@ const { list } = useProductStore();
     </ContainerDiv>
 
     <Container>
-      <ContainerDiv :title="'The News'">
+      <ContainerDiv :title="'home.theNews'">
         <div class="flex flex-col gap-4 p-4 lg:p-0">
           <NuxtLink :to="`news/${i.id}`" v-for="i in store.news" :key="i.id"
             class="bg-gray-100 flex items-center gap-4 w-full  text-primaryHover py-3 px-2 shadow-gray-400 shadow">
@@ -79,7 +81,7 @@ const { list } = useProductStore();
     </Container>
 
     <Container>
-      <ContainerDiv :title="'Contact'">
+      <ContainerDiv :title="'header.contact'">
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 p-16 max-w-7xl w-full">
           <div class="col-span-1 flex flex-col items-center rounded-md p-6 relative">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 fill-primary"

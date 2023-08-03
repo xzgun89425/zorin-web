@@ -1,4 +1,8 @@
 <script setup>
+const { locale, setLocaleCookie } = useI18n();
+watch(locale, (newVal) => {
+  setLocaleCookie(newVal);
+});
 </script>
 
 <template>
@@ -13,6 +17,7 @@
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
 .index-font {
   font-family: "Oswald", sans-serif;
 }

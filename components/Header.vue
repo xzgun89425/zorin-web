@@ -1,11 +1,11 @@
 <script setup>
 const open = ref(false);
 const list = reactive([
-  { name: "Home", src: "/" },
-  { name: "About Us", src: "/about" },
-  { name: "News", src: "/news" },
-  { name: "Products", src: "/products" },
-  { name: "Contact", src: "/contactUs" },
+  { name: "header.home", src: "/" },
+  { name: "header.about", src: "/about" },
+  { name: "header.news", src: "/news" },
+  { name: "header.products", src: "/products" },
+  { name: "header.contact", src: "/contactUs" },
 ]);
 function openNav() {
   open.value = !open.value;
@@ -49,20 +49,28 @@ const vClickoutsideDirective = {
         </svg></a>
     </div>
   </div>
+
   <div
-    class="w-full h-20 text-zinc-900 bg-white sticky top-0 z-50 index-font flex justify-between items-center px-5 lg:px-20 border-y border-gray-200">
+    class="w-full h-24 lg:h-32 text-zinc-900 bg-white sticky top-0 z-50 index-font flex justify-between items-center px-5 lg:px-20 border-y border-gray-300">
     <div>
       <NuxtLink to="/">
-        <h3 class="text-4xl tracking-widest">Zorin Audio</h3>
-        <p class="text-xs">Gramophone design - produced in Taiwan</p>
+        <h3 class="text-4xl lg:text-5xl tracking-widest Pacifica font-medium">Zorin Audio</h3>
+        <p class="text-sm lg:text-base">{{ $t('header.sublogo') }}</p>
       </NuxtLink>
     </div>
 
-    <div class="space-x-4 hidden md:block">
-      <NuxtLink v-for="(item, i) in list" :key="i" :to="item.src" class="link-btn">{{ item.name }}</NuxtLink>
+    <div class="space-x-2 hidden md:flex items-center">
+      <NuxtLink v-for="(item, i) in list" :key="i" :to="item.src" class="link-btn">{{ $t(item.name) }}</NuxtLink>
+      <I18nSelect class="hidden lg:block"></I18nSelect>
     </div>
-    <Hambuger v-clickoutside-directive :open="open" @click="openNav"></Hambuger>
-    <NavList :open="open" :list="list"></NavList>
+
+    <div class="lg:hidden flex items-center gap-4">
+      <I18nSelect class="block lg:hidden"></I18nSelect>
+      <Hambuger v-clickoutside-directive :open="open" @click="openNav"></Hambuger>
+      <NavList :open="open" :list="list"></NavList>
+    </div>
+
+
   </div>
 </template>
 

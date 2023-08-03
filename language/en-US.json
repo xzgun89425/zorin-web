@@ -1,0 +1,16 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "news": "News",
+        "contact": "Contact",
+        "products": "Products",
+        "english": "English",
+        "sublogo": "Gramophone design - produced in Taiwan"
+    },
+    "home": {
+        "newProducts": "New Products",
+        "theNews": "The News"
+    },
+    "aboutUs": "About Us"
+}

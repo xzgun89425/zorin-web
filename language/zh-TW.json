@@ -1,0 +1,16 @@
+{
+    "header": {
+        "home": "首頁",
+        "about": "關於",
+        "news": "最新消息",
+        "contact": "聯絡資訊",
+        "products": "產品",
+        "english": "英文",
+        "sublogo": "唱盤機設計 - 臺灣製造"
+    },
+    "home": {
+        "newProducts": "最新產品",
+        "theNews": "最新消息"
+    },
+    "aboutUs": "關於我們"
+}

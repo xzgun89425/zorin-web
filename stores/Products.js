@@ -4,38 +4,43 @@ export const useProductStore = defineStore('product', () => {
     const list = reactive([
         {
             id: 1,
-            title: 'Zorin Audio TP-S0 唱盤',
-            src: '/images/products/product1.jpg',
-            detail: 'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
-            content: '',
+            name: 'Zorin Audio TP-S0 唱盤',
+            img: '/images/products/product1.jpg',
+            content:
+                'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
+            detail: '',
         },
         {
             id: 2,
-            title: 'Zorin Audio TP-S0 唱盤',
-            src: '/images/products/product1.jpg',
-            detail: 'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
-            content: '',
+            name: 'Zorin Audio TP-S0 唱盤',
+            img: '/images/products/product1.jpg',
+            content:
+                'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
+            detail: '',
         },
         {
             id: 3,
-            title: 'Zorin Audio TP-S0 唱盤',
-            src: '/images/products/product1.jpg',
-            detail: 'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
-            content: '',
+            name: 'Zorin Audio TP-S0 唱盤',
+            img: '/images/products/product1.jpg',
+            content:
+                'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
+            detail: '',
         },
         {
             id: 4,
-            title: 'Zorin Audio TP-S0 唱盤',
-            src: '/images/products/product1.jpg',
-            detail: 'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
-            content: '',
+            name: 'Zorin Audio TP-S0 唱盤',
+            img: '/images/products/product1.jpg',
+            content:
+                'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
+            detail: '',
         },
         {
             id: 5,
-            title: 'Zorin Audio TP-S0 唱盤',
-            src: '/images/products/product1.jpg',
-            detail: 'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
-            content: '',
+            name: 'Zorin Audio TP-S0 唱盤',
+            img: '/images/products/product1.jpg',
+            content:
+                'Galder T.T. with Odin T.A. A beautiful and elegant combination of Black Velvet finish and 24 car at gold plating.',
+            detail: '',
         },
     ])
 
