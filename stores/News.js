@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-export const useHomeStore = defineStore('home', () => {
+export const useNewsStore = defineStore('news', () => {
     const news = reactive([
         {
             id: 1,

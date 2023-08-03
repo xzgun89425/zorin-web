@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import { Autoplay } from "swiper";
 
-const store = useHomeStore();
+const { news } = useNewsStore();
 const { list } = useProductStore();
 // const { data: list } = await useFetch('/api/products');
 
@@ -45,7 +45,7 @@ const { list } = useProductStore();
           <div class="flex flex-wrap-reverse lg:flex-nowrap justify-between items-start gap-10 relative">
             <div class="w-full lg:w-1/2">
               <div class="aspect-w-16 aspect-h-9">
-                <img :src="store.news[0].src" class="" alt="" />
+                <img :src="news[0].src" class="" alt="" />
               </div>
             </div>
             <div class="w-full lg:w-1/2">
@@ -69,7 +69,7 @@ const { list } = useProductStore();
     <Container>
       <ContainerDiv :title="'home.theNews'">
         <div class="flex flex-col gap-4 p-4 lg:p-0">
-          <NuxtLink :to="`news/${i.id}`" v-for="i in store.news" :key="i.id"
+          <NuxtLink :to="`news/${i.id}`" v-for="i in news" :key="i.id"
             class="bg-gray-100 flex items-center gap-4 w-full  text-primaryHover py-3 px-2 shadow-gray-400 shadow">
             <div v-timeformat="i.date"
               class="p-1 bg-primary text-white text-xs lg:text-base w-10 lg:w-14 h-10 lg:h-14 text-center shadow-gray-400 shadow">

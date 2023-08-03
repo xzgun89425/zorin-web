@@ -1,5 +1,5 @@
 <script setup>
-const store = useHomeStore();
+const { news } = useNewsStore();
 </script>
 
 <template>
@@ -7,7 +7,7 @@ const store = useHomeStore();
         <Banner>{{ $t('header.news') }}</Banner>
         <Container>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 lg:p-0">
-                <div v-for="i in store.news" :key="i._id"
+                <div v-for="i in news" :key="i._id"
                     class="col-span-1 h-auto bg-gray-100 w-full shadow shadow-gray-400 rounded">
                     <div class="aspect-w-3 aspect-h-2">
                         <img src="/images/news/news1.webp" class="object-cover object-center" alt="">
