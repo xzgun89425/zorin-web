@@ -4,7 +4,7 @@
     <div class="w-full bg-zinc-900 text-white flex justify-between items-center p-8 index-font">
         <div>
             <NuxtLink to="/">
-                <h3 class="text-lg lg:text-2xl tracking-widest">Zorin Audio</h3>
+                <h3 class="text-xl lg:text-2xl tracking-widest Pacifica font-medium">Zorin Audio</h3>
             </NuxtLink>
             <div class="flex gap-4 mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-white"
