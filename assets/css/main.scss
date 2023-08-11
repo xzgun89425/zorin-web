@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 @layer components {
     .link-btn {
@@ -13,14 +14,16 @@
         background-color: #f8f8f8;
     }
 }
-// .Pacifica {
-//     font-family: 'Pacifica Condensed Regular';
-// }
-
-// @font-face {
-//     font-family: 'Pacifica Condensed Regular';
-//     src: url('~/assets/fonts/Pacifica Condensed Regular.ttf') format('truetype');
-// }
+.Pacifica {
+    font-family: 'Pacifica Condensed Regular';
+}
+.index-font {
+    font-family: 'Oswald', sans-serif;
+}
+@font-face {
+    font-family: 'Pacifica Condensed Regular';
+    src: url('~/assets/fonts/PacificaCondensedRegular.ttf') format('truetype');
+}
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
