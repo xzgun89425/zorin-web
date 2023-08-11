@@ -2,8 +2,12 @@
 </script>
 
 <template>
-  <Container> </Container>
+  <div class="w-full flex flex-col items-center">
+    <Banner>{{ $t('header.news') }}</Banner>
+    <Container>
+
+    </Container>
+  </div>
 </template>
 
-<style>
-</style>
+<style></style>

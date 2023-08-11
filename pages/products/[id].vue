@@ -1,7 +1,13 @@
 <script setup>
 </script>
 
-<template><Container> </Container></template>
+<template>
+    <div class="w-full flex flex-col items-center">
+        <Banner>{{ $t('header.products') }}</Banner>
+        <Container>
 
-<style>
-</style>
+        </Container>
+    </div>
+</template>
+
+<style></style>
