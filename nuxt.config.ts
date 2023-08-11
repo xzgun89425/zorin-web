@@ -35,12 +35,12 @@ export default defineNuxtConfig({
         strategy: 'no_prefix',
         locales: [
             {
-                code: 'zh-TW',
-                file: 'zh-TW.json',
-            },
-            {
                 code: 'en-US',
                 file: 'en-US.json',
+            },
+            {
+                code: 'zh-TW',
+                file: 'zh-TW.json',
             },
         ],
         langDir: 'language',
