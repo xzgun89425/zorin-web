@@ -19,8 +19,10 @@ const { news } = useNewsStore();
                         </div>
                         <div class="w-full flex justify-between items-center">
                             <p class="text-sm text-gray-500">{{ i.date }}</p>
-                            <button class="bg-gray-200 hover:bg-gray-300 text-xs w-20 py-2 rounded text-gray-600">Read
-                                More</button>
+                            <NuxtLink :to="`news/${i.id}`"
+                                class="bg-gray-200 hover:bg-gray-300 text-center text-xs w-20 py-2 rounded text-gray-600">
+                                Read
+                                More</NuxtLink>
                         </div>
 
                     </div>

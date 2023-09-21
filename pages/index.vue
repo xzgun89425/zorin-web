@@ -2,11 +2,9 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import { Autoplay } from "swiper";
-
+import { useNewsStore } from "@/stores/News.js"
 const { news } = useNewsStore();
 const { list } = useProductStore();
-// const { data: list } = await useFetch('/api/products');
-
 </script> 
 
 <template>
@@ -23,20 +21,7 @@ const { list } = useProductStore();
     </Container>
 
     <Container :title="'home.newProducts'">
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 lg:p-0">
-        <div v-for="i in list" :key="i._id" class="col-span-1 h-auto bg-gray-100 w-full shadow shadow-gray-400 rounded">
-          <div class="aspect-w-3 aspect-h-2">
-            <img :src="i.img" class="object-cover object-center" alt="">
-          </div>
-          <div class="p-4 flex flex-col justify-between items-end">
-            <div class="space-y-3 mb-3 w-full">
-              <h1 class="text-base lg:text-lg font-bold">{{ i.name }}</h1>
-              <p class="text-xs h-[32px] lg:h-[48px] overflow-hidden text-ellipsis">{{ i.content }}</p>
-            </div>
-            <button class="bg-gray-200 hover:bg-gray-300 text-xs w-20 py-2 rounded text-gray-600">Read More</button>
-          </div>
-        </div>
-      </div>
+      <ProductGrid :items="list"></ProductGrid>
     </Container>
 
     <ContainerDiv>
@@ -57,7 +42,12 @@ const { list } = useProductStore();
                   <p class="text-sm index-font text-primary">{{ $t('header.sublogo') }}</p>
                 </div>
                 <p>
-                  臺灣唱片機製造商，
+                  歡迎來到<span class="tracking-widest text-primary Pacifica">Zorin
+                    Audio</span>，我們是一家專注於音樂品質和音響技術的唱片機製造商，擁有多年的豐富經驗，致力於將音樂帶入您的生活。<br /><br />
+
+                  我們的故事始於多年前，當我們的創辦人們熱愛音樂並開始探索如何將音樂的真實之美帶給人們。經過不懈的努力和技術的不斷創新，我們成功地打造了一系列優質的唱片機，每一款都是音樂藝術的極致表現。<br /><br />
+
+                  我們的唱片機，不僅僅是一個音響設備，更是一種對音樂的熱愛和對音質的追求的體現。我們的工程師和設計師們在每一個細節上都投入了無數的心血，以確保您可以感受到音樂的深度和豐富度。<br /><br />
                 </p>
               </div>
             </div>
