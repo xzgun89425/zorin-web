@@ -5,10 +5,10 @@ import { Autoplay } from "swiper";
 import { useNewsStore } from "@/stores/News.js"
 const { news } = useNewsStore();
 const { list } = useProductStore();
-</script> 
+</script>
 
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center w-full">
 
     <Container>
       <Swiper :autoplay="{ delay: 3000, disableOnInteraction: false }" loop :modules="[Autoplay]">
@@ -74,7 +74,7 @@ const { list } = useProductStore();
 
     <Container>
       <ContainerDiv :title="'header.contact'">
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 p-16 max-w-7xl w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 py-16 max-w-7xl w-full">
           <div class="col-span-1 flex flex-col items-center rounded-md p-6 relative">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 fill-primary"
               viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->

@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="w-full my-8 px-5 lg:px-20">
+  <div class="w-full my-8">
     <h1 v-if="title !== ''" class="w-full index-font tracking-wider text-3xl text-center text-primary my-8 lg:my-10">
       {{ $t(title) }}
     </h1>
