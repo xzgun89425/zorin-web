@@ -12,7 +12,6 @@ function showopen() {
 function choose(i) {
     language.value = i.name;
     locale.value = i.value;
-    console.log(locale);
 }
 function onClickOutside(event) {
     open.value = false;
@@ -21,11 +20,11 @@ function onClickOutside(event) {
 
 <template>
     <div>
-        <div class="relative text-sm lg:text-base w-24">
+        <div class="text-sm lg:text-base w-24">
             <button @click="showopen()" v-click-outside="onClickOutside"
                 class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary">
                 <span class="block truncate" v-for="i in languages" :key="i.value" v-show="i.value == locale">{{ i.name
-                }}</span>
+                    }}</span>
 
                 <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                     <!-- Heroicon name: solid/selector -->
@@ -36,15 +35,17 @@ function onClickOutside(event) {
                             clip-rule="evenodd" />
                     </svg>
                 </span>
+
+                <ul v-show="open"
+                    class="duration-300 absolute left-0 top-[100%] z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none">
+                    <li v-for="i in languages" :key="i.value" @click="choose(i)"
+                        class="text-gray-900 cursor-default select-none relative px-4 py-2 hover:bg-zinc-900 hover:text-white hover:cursor-pointer">
+                        <span class="font-normal block truncate">{{ i.name }}</span>
+                    </li>
+                </ul>
             </button>
 
-            <ul v-show="open"
-                class="duration-300 absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none">
-                <li v-for="i in languages" :key="i.value" @click="choose(i)"
-                    class="text-gray-900 cursor-default select-none relative px-4 py-2 hover:bg-zinc-900 hover:text-white hover:cursor-pointer">
-                    <span class="font-normal block truncate">{{ i.name }}</span>
-                </li>
-            </ul>
+
         </div>
     </div>
 </template>
