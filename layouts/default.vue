@@ -8,7 +8,7 @@ watch(locale, (newVal) => {
 <template>
   <div>
     <Header></Header>
-    <div class="flex justify-center">
+    <div class="flex justify-center w-full  max-w-screen">
       <slot />
     </div>
     <Footer></Footer>

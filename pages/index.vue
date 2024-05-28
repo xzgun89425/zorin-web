@@ -8,13 +8,15 @@ const { list } = useProductStore();
 </script> 
 
 <template>
-  <div class="flex flex-col w-full items-center">
+  <div class="flex flex-col items-center">
 
     <Container>
       <Swiper :autoplay="{ delay: 3000, disableOnInteraction: false }" loop :modules="[Autoplay]">
         <SwiperSlide v-for="i in 3" :key="i">
-          <div class="w-full aspect-w-16 aspect-h-6">
-            <img class="object-cover object-center" src="/images/bg1.webp" alt="" />
+          <div class="w-full">
+            <div class="aspect-w-16 aspect-h-6">
+              <img class="w-screen" src="/images/bg1.webp" alt="" />
+            </div>
           </div>
         </SwiperSlide>
       </Swiper>

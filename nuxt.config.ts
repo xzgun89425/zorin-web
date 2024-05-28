@@ -3,12 +3,12 @@ export default defineNuxtConfig({
     app: {
         head: {
             viewport: 'width=device-width, initial-scale=1',
-            title: 'Zorin Studio',
+            title: 'Zorin Audio',
             meta: [
-                { name: 'description', content: 'Zorin Studio' },
-                { property: 'og:title', content: 'Zorin Studio' },
+                { name: 'description', content: 'Zorin Audio' },
+                { property: 'og:title', content: 'Zorin Audio' },
                 { property: 'og:url', content: 'https://zorin-studio.com/' },
-                { property: 'og:description', content: 'Zorin Studio' },
+                { property: 'og:description', content: 'Zorin Audio' },
             ],
         },
     },
