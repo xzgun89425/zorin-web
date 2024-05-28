@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "name": "TP-S0 Turntable",
+        "retail": "2280",
+        "distributor": "1026",
+        "imgs": ["/images/products/1/1.jpg", "/images/products/1/2.jpg", "/images/products/1/3.jpg"],
+        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/><br/>Replaceable power cord<br/><br/>(220V 50HZ needs to be informed in advance)<br/><br/>The total weight of the turntable is 11Kg",
+        "dimensions": {
+            "width": 320,
+            "depth": 420,
+            "height": 40
+        },
+        "Tonearm": "PUR-9, Flat type, Precision Ball bearings, statically balanced tonearm,sandwich",
+        "Tonearmtime": null,
+        "description": "Solid aluminum turntable, platter weighing up to 8 kg Magnetic floating metal axis<br/><br/>Full metal base, adopted with three-point foot column designAC synchronous motor,<br/><br/>Patented 33/45 manual speed switching design<br/><br/>Single motor belt drive design",
+        "features": "Patented manual switching design<br/><br/>avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/><br/>No suspension design, the rotation inertia and auditory energy brought by it can definitely easily challenge the famous European and American models at twice the price.<br/><br/>With micro inner hexagonal plate hand design, very easy to adjust the tonearm’s VTA<br/><br/>All parts are completely manufactured in Taiwan, except motor."
+    },
+    {
+        "id": 2,
+        "name": "TP-S1 Turntable",
+        "retail": "3366",
+        "distributor": "1515",
+        "imgs": ["/images/products/2/1.jpg", "/images/products/2/2.jpg"],
+        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 19 Kg",
+        "dimensions": {
+            "width": 440,
+            "depth": 400,
+            "height": 150
+        },
+        "Tonearm": "PSS-9,Tangent type, uni-pivot bearings, statically balanced tonearm",
+        "Tonearmtime": 3,
+        "description": "Solid aluminum turntable, platter weighing up to 8 kg<br/>Magnetic floating metal axis<br/>Full metal base, adopted with three-point foot column design<br/>AC synchronous motor,<br/>Patented 33/45 manual speed switching design<br/>Single motor belt drive design",
+        "features": "Patented manual switching design avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/>Three-point foot column design, the most stable way of turntable.<br/>Matte finished platter, calm and elegant.<br/>Motor, smooth rotation speed with extremely low noise.<br/>Can install 3 tonearms, more flexible.<br/>All parts are completely manufactured in Taiwan, except motor."
+    },
+    {
+        "id": 3,
+        "name": "TP-S5 Turntable",
+        "retail": "8578",
+        "distributor": "3860",
+        "imgs": ["/images/products/3/1.jpg", "/images/products/3/2.jpg"],
+        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 28 Kg",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": 260
+        },
+        "dimensionsNote": "tonearm not included",
+        "Tonearm": "",
+        "Tonearmtime": 3,
+        "description": "Solid aluminum turntable, platter weighing up to 13 kg<br/>Magnetic floating metal axis<br/>Full metal base, adopted with three-point foot column design<br/>AC synchronous motor<br/>Patented 33/45 manual speed switching design<br/>Single motor belt drive design",
+        "features": "Patented manual switching design avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/>Three-point foot column design, the most stable way of turntable.<br/>Matte finished platter, calm and elegant.<br/>Motor, smooth rotation speed with extremely low noise. Motor is separated from the platter, reduce vibration.<br/>Can install 3 tonearms, more flexible.<br/>All parts are completely manufactured in Taiwan, except motor."
+    },
+    {
+        "id": 4,
+        "name": "TP-S7 Turntable",
+        "retail": "20630",
+        "distributor": "9284",
+        "imgs": ["/images/products/4/1.jpg", "/images/products/4/2.jpg"],
+        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 60 Kg",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": 3,
+        "description": "Solid aluminum turntable, platter weighing up to 22 kg<br/>Magnetic floating metal axis<br/>Full metal base, adopted with three-point foot column design<br/>AC synchronous motor<br/>Patented 33/45 manual speed switching design<br/>Single motor belt drive design",
+        "features": "Patented manual switching design avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/>Three-point foot column design, the most stable way of turntable.<br/>Matte finished platter, calm and elegant.<br/>Motor, smooth rotation speed with extremely low noise. Motor is separated from the platter, reduce vibration.<br/>Auto speed control system and power supply, RPM is always 33 1/3 or 45.<br/>Vacuum suction platter, a solution when facing a curly record, sucking power is adjustable.<br/>Anti-static platter.<br/>Can install 3 tonearms, more flexible.<br/>All parts are completely manufactured in Taiwan, except motor."
+    },
+    {
+        "id": 5,
+        "name": "TP-S9 Turntable",
+        "retail": "47,772",
+        "distributor": "21498",
+        "imgs": ["/images/products/5/1.jpg", "/images/products/5/2.jpg"],
+        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "Linear tracking, air bearings, statically balanced tonearm",
+        "Tonearmtime": 3,
+        "description": "Dual platter structure, all platters are made by solid aluminum, upper platter weighing up to 12 kg, lower platter weighing up to 12 kg<br/>Magnetic floating metal axis<br/>Full metal base, adopted with three-point foot column design<br/>AC synchronous motor<br/>Patented 33/45 manual speed switching design<br/>Single motor belt drive design",
+        "features": "Patented manual switching design avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/>Three-point foot column design, the most stable way of turntable.<br/>Matte finished platter, calm and elegant.<br/>Motor, smooth rotation speed with extremely low noise. Motor is separated from the platter, reduce vibration.<br/>Auto speed control system and power supply, RPM is always 33 1/3 or 45.<br/>The coaxial forward and reverse dual turntable structure makes the background clearer, lowers the noise, and makes the details richer.<br/>Vacuum suction platter, a solution when facing a curly record, sucking power is adjustable.<br/>Anti-static platter.<br/>With an air-bearing linear tracking tonearm.<br/>Can install 3 tonearms, more flexible.<br/>All parts are completely manufactured in Taiwan, except motor."
+    },
+    {
+        "id": 6,
+        "name": "M.R. Ionic Type Airbearing Linear tracking Tonearm",
+        "retail": "6950",
+        "distributor": "3128",
+        "imgs": ["/images/products/6/1.jpg", "/images/products/6/2.jpg", "/images/products/6/3.jpg"],
+        "TransformerBuiltIn": "",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "Type: Air-bearing tonearm<br/>Tracking: Linear tracking<br/>Included: AS-1+Air pump",
+        "features": "AS-1(patented technology) is used on the air-bearing tone arm and is installed between the air pump and the airbearing arm to eliminate the static electricity generated by the friction of the air flow through the air outlet, and the static electricity will cause the bushing and air outlet produces adsorption force, which affects sound performance and flexibility. After installing AS-1(device which eliminate the static electricity), a significant differences between the original sound can be observed.<br/><br/>Mechanism designed to easily clean the discharge needle. Normally, after hundreds of hours of use, crystals may form on the surface of the needle tip. If not cleaned, it will cause the ion generator‘s power reduced or even ineffective.<br/><br/>The air pump can be adjusted according to the weight of the cartridge.<br/><br/>Silence: With medical-grade cylinders partial pressure, stabilize and filter the air. The air pump of our air-bearing tonearm can provide noiseless and constant air pressure.<br/><br/>Durable: Very durable, air- pump’s failure rate is under 1% and it’s life span can up to 10-20 years.<br/><br/>Original mechanical design, make VTA adjustable while listening.<br/><br/>High-rigidity tonearm made by stainless steel, reduce abrasion when lifting and dropping the tonearm, make our product more durable."
+    },
+    {
+        "id": 7,
+        "name": "LT-O2 Ionic Type Air-bearing Linear tracking Tonearm",
+        "retail": "5320",
+        "distributor": "2394",
+        "imgs": [
+            "/images/products/7/1.jpg",
+            "/images/products/7/2.jpg",
+            "/images/products/7/3.jpg",
+            "/images/products/7/4.jpg"
+        ],
+        "TransformerBuiltIn": "",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "Type: Air-bearing tonearm<br/>Tracking: Linear tracking<br/>AS-1+Air pump is included",
+        "features": "AS-1(patented technology) is used on the air-bearing tone arm and is installed between the air pump and the airbearing arm to eliminate the static electricity generated by the friction of the air flow through the air outlet, and the static electricity will cause the bushing and air outlet produces adsorption force, which affects sound performance and flexibility. After installing AS-1(device which eliminate the static electricity), a significant differences between the original sound can be observed.<br/><br/>Mechanism designed to easily clean the discharge needle. Normally, after hundreds of hours of use, crystals may form on the surface of the needle tip. If not cleaned, it will cause the ion generator‘s power reduced or even ineffective.<br/><br/>The guide board under the tube can guide extra ION air to the records, not only remove the static of the tonearm, but also remove the statics generated with records are playing.<br/><br/>The air pump can be adjusted according to the weight of the cartridge.<br/><br/>Silence: With medical-grade cylinders partial pressure, stabilize and filter the air. The air pump of our air-bearing tonearm can provide noiseless and constant air pressure.<br/><br/>Durable: Very durable, air- pump’s failure rate is under 1% and it’s life span can up to 10-20 years.<br/><br/>Original mechanical design, make VTA adjustable while listening.<br/><br/>High-rigidity tonearm made by stainless steel, reduce abrasion when lifting and dropping the tonearm, make our product more durable."
+    },
+    {
+        "id": 8,
+        "name": "PUS-12 Tonearm",
+        "retail": "2605",
+        "distributor": "1173",
+        "imgs": ["/images/products/8/1.jpg", "/images/products/8/2.jpg"],
+        "TransformerBuiltIn": "",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "Type: Statically balanced tonearm<br/>Effective Tonearm Length: 306mm<br/>Overhang: 13mm<br/>Offset Angle: 17.6<br/>Available cartridge weight: 5-20g",
+        "features": "Original head shell design, Overhang and Offset Angle can be adjust on the head shell<br/>Original mechanical design, make VTA adjustable while listening<br/>Counterweight on the rear part can be used to adjust the azimuth<br/>Uni-pivot oil damped design, fulcrum, side counterweight and counterweight on the rear part is on the same surface, which can reduce wobbling and provide stable tracking.<br/>Detachable titanium-plating brass counterweight is easy to install on different type of tonearm<br/>High-rigidity tonearm made by stainless steel, reduce abrasion when lifting and dropping the tonearm, make our product more durable."
+    },
+    {
+        "id": 9,
+        "name": "AS-2 ION generator Static Eliminator",
+        "retail": "1303",
+        "distributor": "587",
+        "imgs": ["/images/products/9/1.jpg", "/images/products/9/2.jpg"],
+        "TransformerBuiltIn": "",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "Both AS-1 and AS-2 generate positive and negative ion to eliminate static electricity<br/>Fanless design<br/>External stand included",
+        "features": "AS-2 is aimed at eliminating static electricity on the surface of records. Unlike AS-1, AS-2 does not require the air flow of the pump for heat dissipation. The ion release hole of AS-2 is at the bottom of the rectangular tube. When playing the record, the distance from the record is only 1 to 2 cm (height is adjustable), which can ensure the effect of neutralizing static electricity.<br/>Mechanism designed to easily clean the discharge needle. Normally, after hundreds of hours of use, crystals may form on the surface of the needle tip. If not cleaned, it will cause the ion generator‘s power reduced or even ineffective.<br/>Light-weight, easy to install and external stand provide more flexibly, can be used in all kinds of turntables."
+    }
+]

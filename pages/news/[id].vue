@@ -14,7 +14,12 @@ const newsItem = ref(news.filter(e => e.id == route.params.id)[0])
       </div>
     </div>
     <Container>
-      <p v-html="newsItem.content"></p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 py-4">
+        <div v-for="img in newsItem.imgs" :key="img" class="w-full col-span-1 aspect-w-16 aspect-h-9">
+          <img class="object-cover object-center" :src="img" alt="" />
+        </div>
+      </div>
+      <p v-html="newsItem.content" class="px-4"></p>
     </Container>
   </div>
 </template>

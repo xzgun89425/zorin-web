@@ -1,31 +1,27 @@
-import { defineStore } from 'pinia'
+import { defineStore } from 'pinia';
 
 export const useNewsStore = defineStore('news', () => {
     const news = reactive([
         {
             id: 1,
-            title: '6月30日（五）｜台北、台中、高雄展示中心營業時間調整公告',
-            src: '/images/news/news1.webp',
-            date: '2023/06/28',
-            content: '商品突破最新技術，唱片機唱針使用最新科技，質感，音質大幅提升...',
+            title: '次旗艦唱盤S5德國慕尼黑確定參展 展期5/9-12',
+            titleEn: 'New TP-S5 is now released and been delivered, installed and ready to go.',
+            src: '/images/news/1/1.jpg',
+            imgs: ['/images/news/1/1.jpg', '/images/news/1/2.jpg', '/images/news/1/3.jpg', '/images/news/1/4.jpg'],
+            date: '2024/05/28',
+            content: '次旗艦唱盤S5德國慕尼黑確定參展 展期5/9-12',
         },
         {
             id: 2,
-            title: '端午節連假｜客服中心服務時間及線上購物出貨時間調整公告',
-            src: '/images/news/news1.webp',
-            date: '2023/06/28',
-            content: '商品突破最新技術，唱片機唱針使用最新科技，質感，音質大幅提升...',
+            title: '首部新版S5發售 實裝測評',
+            src: '/images/news/2/1.jpg',
+            imgs: ['/images/news/2/1.jpg', '/images/news/2/2.jpg'],
+            date: '2024/05/28',
+            content: '首部新版S5發售 實裝測評',
         },
-        {
-            id: 3,
-            title: 'Audio-Technica 與黑膠墜入愛河｜誠品信義3F音樂館',
-            src: '/images/news/news1.webp',
-            date: '2023/06/28',
-            content: '商品突破最新技術，唱片機唱針使用最新科技，質感，音質大幅提升...',
-        },
-    ])
+    ]);
 
     return {
         news,
-    }
-})
+    };
+});

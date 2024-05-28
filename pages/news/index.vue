@@ -10,11 +10,11 @@ const { news } = useNewsStore();
                 <div v-for="i in news" :key="i._id"
                     class="col-span-1 h-auto bg-gray-100 w-full shadow shadow-gray-400 rounded">
                     <div class="aspect-w-3 aspect-h-2">
-                        <img src="/images/news/news1.webp" class="object-cover object-center" alt="">
+                        <img :src="i.imgs[0]" class="object-cover object-center" alt="">
                     </div>
                     <div class="p-4 flex flex-col justify-between items-end">
                         <div class="space-y-3 mb-3 w-full">
-                            <h1 class="text-base lg:text-lg font-bold">{{ i.title }}</h1>
+                            <h1 class="text-base lg:text-lg font-bold h-[56px] truncate">{{ i.title }}</h1>
                             <p class="text-xs h-[32px] lg:h-[48px] overflow-hidden text-ellipsis">{{ i.content }}</p>
                         </div>
                         <div class="w-full flex justify-between items-center">

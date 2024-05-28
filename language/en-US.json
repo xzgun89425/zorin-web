@@ -10,8 +10,20 @@
     },
     "home": {
         "newProducts": "New Products",
-        "theNews": "The News"
+        "theNews": "The News",
+        "aboutContent": "We are a turntable manufacturer who are dedicated to quality of music and audio technology. We have years of rich experience, committed to bringing music into your life.<br /><br /> Our record players are not just audio equipment but also a manifestation of love for music and pursuit of sound quality. <br /><br />Our engineers and designers have poured countless efforts into every detail to ensure you can experience the depth and richness of music."
     },
+    "welcomeTo": "Welcome to",
     "aboutUs": "About Us",
-    "product-img": "Product Photo"
+    "abouts": {
+        "section1": "where we are dedicated to music quality and audio technology as a record player manufacturer with years of rich experience, committed to bringing music into your life.",
+        "section2": "Our story began years ago when our founders had a passion for music and started exploring how to bring the true beauty of music to people. Through relentless effort and continuous technological innovation, we successfully crafted a range of high-quality record players, each one a pinnacle of musical artistry.",
+        "section3": "Our record players are not just audio equipment; they embody a passion for music and a pursuit of sound quality. Our engineers and designers have poured countless efforts into every detail to ensure you can experience the depth and richness of music.",
+        "section4": "We take pride in our record players not only for their excellent sound quality but also for their outstanding durability and reliability. We use high-quality materials and state-of-the-art manufacturing processes to ensure each record player can withstand the test of time and become a faithful companion to your musical life.",
+        "section5": "Our mission is to bring music into every home, allowing people to enjoy the purest and most moving music experiences. We firmly believe that music has a unique power to connect people's hearts, bringing joy and satisfaction. Therefore, we are committed to providing outstanding sound quality and design to ensure that your music collection is presented at its best in our record players.",
+        "section6": "Whether you are an audiophile or a user with high demands for music quality, we have a record player to meet your needs. We look forward to sharing the charm of music with you and making our record players an indispensable part of your musical journey.",
+        "section7": "Thank you for choosing us. Let's explore the wonderful world of music together and bring you an unparalleled music experience.<br/><br/>Music, made beautiful by us!"
+    },
+    "product-img": "Product Photo",
+    "product-Features": "Features"
 }
