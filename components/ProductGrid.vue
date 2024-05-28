@@ -24,7 +24,7 @@ function leaveImg(imgs, i) {
             </div>
             <div class="p-4 flex flex-col justify-between items-end">
                 <div class="space-y-3 mb-3 w-full">
-                    <h1 class="text-base lg:text-lg font-bold">{{ i.name }}</h1>
+                    <h1 class="text-base lg:text-lg font-bold truncate max-h-[56px]">{{ i.name }}</h1>
                     <p class="text-xs h-[32px] lg:h-[48px] overflow-hidden text-ellipsis">{{ i.content }}</p>
                 </div>
                 <NuxtLink :to="`products/${i.id}`"

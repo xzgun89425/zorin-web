@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     app: {
         head: {
-            viewport: 'width=500, initial-scale=1',
+            viewport: 'width=device-width, initial-scale=1',
             title: 'Zorin Studio',
             meta: [
                 { name: 'description', content: 'Zorin Studio' },
@@ -49,4 +49,4 @@ export default defineNuxtConfig({
             useCookie: true,
         },
     },
-})
+});

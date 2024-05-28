@@ -1,12 +1,13 @@
 <script setup></script>
 
 <template>
-    <div class="w-full bg-zinc-900 text-white flex justify-between items-center p-8 index-font">
+    <div
+        class="w-full bg-zinc-900 text-white flex flex-col md:flex-row text-center md:text-start justify-center md:justify-between items-center px-5 lg:px-20 py-8 index-font">
         <div>
             <NuxtLink to="/">
                 <h3 class="text-xl lg:text-2xl tracking-widest Pacifica font-medium">Zorin Audio</h3>
             </NuxtLink>
-            <div class="flex gap-4 mt-4">
+            <div class="flex justify-center md:justify-start gap-4 mt-4">
                 <a href="https://www.facebook.com/">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-white"
                         viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -30,7 +31,7 @@
                 </a>
             </div>
         </div>
-        <div class="text-sm space-y-4">
+        <div class="text-sm space-y-4 mt-4 md:mt-0">
             <div class="flex gap-4 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="fill-white w-3 mt-1"
                     viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
