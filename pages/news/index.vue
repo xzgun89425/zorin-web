@@ -1,4 +1,5 @@
 <script setup>
+const { locale } = useI18n();
 const { news } = useNewsStore();
 </script>
 
@@ -7,15 +8,17 @@ const { news } = useNewsStore();
         <Banner>{{ $t('header.news') }}</Banner>
         <Container>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 lg:p-0">
-                <div v-for="i in news" :key="i._id"
+                <div v-for="i in news" :key="i.id"
                     class="col-span-1 h-auto bg-gray-100 w-full shadow shadow-gray-400 rounded">
                     <div class="aspect-w-3 aspect-h-2">
                         <img :src="i.imgs[0]" class="object-cover object-center" alt="">
                     </div>
                     <div class="p-4 flex flex-col justify-between items-end">
                         <div class="space-y-3 mb-3 w-full">
-                            <h1 class="text-base lg:text-lg font-bold h-[56px] truncate">{{ i.title }}</h1>
-                            <p class="text-xs h-[32px] lg:h-[48px] overflow-hidden text-ellipsis">{{ i.content }}</p>
+                            <h1 class="text-base lg:text-lg font-bold h-[56px] truncate">{{ locale == 'zh-TW' ? i.title
+                                : i.titleEn }}</h1>
+                            <p class="text-xs h-[32px] lg:h-[48px] overflow-hidden text-ellipsis">{{ locale == 'zh-TW' ?
+                                i.content : i.contentEn }}</p>
                         </div>
                         <div class="w-full flex justify-between items-center">
                             <p class="text-sm text-gray-500">{{ i.date }}</p>

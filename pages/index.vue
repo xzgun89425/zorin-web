@@ -4,11 +4,15 @@ import "swiper/css";
 import { Autoplay } from "swiper";
 import { useNewsStore } from "@/stores/News.js"
 import { useProductStore } from "@/stores/Products.js"
+const { locale } = useI18n();
 const { news } = useNewsStore();
 const { list } = useProductStore();
 const banner = reactive([
-  { id: 2, url: '/images/news/2/1.jpg' },
-  { id: 3, url: '/images/news/1/1.jpg' },
+  { id: 1, url: '/images/banner/bg1.webp' },
+  { id: 2, url: '/images/banner/bg1.webp' },
+  { id: 3, url: '/images/banner/bg1.webp' },
+  // { id: 2, url: '/images/news/2/1.jpg' },
+  // { id: 3, url: '/images/news/1/1.jpg' },
 ]);
 </script>
 
@@ -68,7 +72,7 @@ const banner = reactive([
             <div v-timeformat="i.date"
               class="p-1 bg-primary text-white text-xs lg:text-base w-10 lg:w-14 h-10 lg:h-14 text-center shadow-gray-400 shadow">
             </div>
-            <span class="font-bold text-sm lg:text-lg">{{ i.title }}</span>
+            <span class="font-bold text-sm lg:text-lg">{{ locale == 'zh-TW' ? i.title : i.titleEn }}</span>
           </NuxtLink>
         </div>
       </ContainerDiv>

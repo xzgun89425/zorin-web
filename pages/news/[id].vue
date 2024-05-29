@@ -1,5 +1,6 @@
 <script setup>
 const route = useRoute();
+const { locale } = useI18n();
 const { news } = useNewsStore();
 const newsItem = ref(news.filter(e => e.id == route.params.id)[0])
 </script>
@@ -9,7 +10,7 @@ const newsItem = ref(news.filter(e => e.id == route.params.id)[0])
     <div class="w-full">
       <div class="w-full h-60 flex justify-center items-center bg-gray-200 text-primary px-6">
         <h1 class="text-4xl font-bold">
-          {{ newsItem.title }}
+          {{ locale == 'zh-TW' ? newsItem.title : newsItem.titleEn }}
         </h1>
       </div>
     </div>
@@ -19,7 +20,7 @@ const newsItem = ref(news.filter(e => e.id == route.params.id)[0])
           <img class="object-cover object-center" :src="img" alt="" />
         </div>
       </div>
-      <p v-html="newsItem.content" class="px-4"></p>
+      <p v-html="locale == 'zh-TW' ? newsItem.content : newsItem.contentEn" class="px-4"></p>
     </Container>
   </div>
 </template>
