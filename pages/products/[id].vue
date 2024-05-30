@@ -16,7 +16,8 @@ function openImg(url) {
 useHead({
     title: "Zorin Audio",
     meta: [
-        { hid: 'og:image', name: 'og:image', content: "https://zorin-audio.com/images/products/1/1.jpg" },
+        // { hid: 'og:image', name: 'og:image', content: "https://zorin-audio.com/images/products/1/1.jpg" },
+        { property: 'og:image', content: 'https://zorin-audio.com/images/products/1/1.jpg' },
     ],
 });
 </script>
