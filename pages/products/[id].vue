@@ -12,6 +12,13 @@ function openImg(url) {
     imgShow.value = true;
     imgUrl.value = [url]
 }
+
+useHead({
+    title: "Zorin Audio",
+    meta: [
+        { hid: 'og:image', name: 'og:image', content: "/image/products/1/1" },
+    ],
+});
 </script>
 
 <template>
