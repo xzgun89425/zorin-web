@@ -1,19 +1,19 @@
 <script setup>
 useHead({
-  title: "關於我們 About - Zorin Studio",
+  title: "關於我們 About - Zorin audio",
   meta: [
-    { property: "og:title", content: "關於我們 About - Zorin Studio" },
-    { property: "og:url", content: "https://zorin-studio.com/about" },
-    { property: "og:image", content: "https://zorin-studio.com/about.webp" },
-    { name: "description", content: "關於我們 About - Zorin Studio" },
-    { property: "og:description", content: "關於我們 About - Zorin Studio" },
+    { property: "og:title", content: "關於我們 About - Zorin audio" },
+    { property: "og:url", content: "https://zorin-audio.com/about" },
+    { property: "og:image", content: "https://zorin-audio.com/about.webp" },
+    { name: "description", content: "關於我們 About - Zorin audio" },
+    { property: "og:description", content: "關於我們 About - Zorin audio" },
   ],
 });
 useSeoMeta({
-  title: "About - Zorin Studio",
-  description: "關於我們 - Zorin Studio",
-  ogDescription: "關於我們 - Zorin Studio",
-  ogTitle: "About - Zorin Studio",
+  title: "About - Zorin audio",
+  description: "關於我們 - Zorin audio",
+  ogDescription: "關於我們 - Zorin audio",
+  ogTitle: "About - Zorin audio",
   ogImage: "",
 });
 </script>

@@ -13,20 +13,20 @@ function openImg(url) {
     imgUrl.value = [url]
 }
 useHead({
-    title: "Zorin Studio",
+    title: "Zorin audio",
     meta: [
-        { property: "og:title", content: "Zorin Studio" },
-        { property: "og:url", content: "https://zorin-studio.com" },
-        { property: "og:image", content: "https://zorin-studio.com/products/1/1.jpg" },
-        { name: "description", content: "Zorin Studio" },
-        { property: "og:description", content: "Zorin Studio" },
+        { property: "og:title", content: "Zorin audio" },
+        { property: "og:url", content: "https://zorin-audio.com" },
+        { property: "og:image", content: "https://zorin-audio.com/products/1/1.jpg" },
+        { name: "description", content: "Zorin audio" },
+        { property: "og:description", content: "Zorin audio" },
     ],
 });
 useSeoMeta({
-    title: "Zorin Studio",
-    description: "Zorin Studio",
-    ogDescription: "Zorin Studio",
-    ogTitle: "Zorin Studio",
+    title: "Zorin audio",
+    description: "Zorin audio",
+    ogDescription: "Zorin audio",
+    ogTitle: "Zorin audio",
     ogImage: "",
 });
 </script>

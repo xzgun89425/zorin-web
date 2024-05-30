@@ -9,7 +9,6 @@ export default defineNuxtConfig({
                 { property: 'og:title', content: 'Zorin Audio' },
                 { property: 'og:url', content: 'https://zorin-studio.com/' },
                 { property: 'og:description', content: 'Zorin Audio' },
-                // { property: 'og:image', content: 'https://zorin-audio.com/images/banner/bg1.webp' },
             ],
         },
     },
