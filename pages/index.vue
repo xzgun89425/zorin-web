@@ -14,6 +14,23 @@ const banner = reactive([
   // { id: 2, url: '/images/news/2/1.jpg' },
   // { id: 3, url: '/images/news/1/1.jpg' },
 ]);
+useHead({
+  title: "關於我們 About - Zorin Studio",
+  meta: [
+    { property: "og:title", content: "關於我們 About - Zorin Studio" },
+    { property: "og:url", content: "https://zorin-studio.com" },
+    { property: "og:image", content: "https://zorin-studio.com/about.webp" },
+    { name: "description", content: "關於我們 About - Zorin Studio" },
+    { property: "og:description", content: "關於我們 About - Zorin Studio" },
+  ],
+});
+useSeoMeta({
+  title: "About - Zorin Studio",
+  description: "關於我們 - Zorin Studio",
+  ogDescription: "關於我們 - Zorin Studio",
+  ogTitle: "About - Zorin Studio",
+  ogImage: "",
+});
 </script>
 
 <template>

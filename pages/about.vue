@@ -4,7 +4,7 @@ useHead({
   meta: [
     { property: "og:title", content: "關於我們 About - Zorin Studio" },
     { property: "og:url", content: "https://zorin-studio.com/about" },
-    { property: "og:image", content: "https://zorin-studio.com/share.jpg" },
+    { property: "og:image", content: "https://zorin-studio.com/about.webp" },
     { name: "description", content: "關於我們 About - Zorin Studio" },
     { property: "og:description", content: "關於我們 About - Zorin Studio" },
   ],
