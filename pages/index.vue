@@ -15,21 +15,21 @@ const banner = reactive([
   // { id: 3, url: '/images/news/1/1.jpg' },
 ]);
 useHead({
-  title: "關於我們 About - Zorin audio",
+  title: "Zorin audio",
   meta: [
-    { property: "og:title", content: "關於我們 About - Zorin audio" },
+    { property: "og:title", content: "Zorin audio" },
     { property: "og:url", content: "https://zorin-audio.com" },
-    { property: "og:image", content: "https://zorin-audio.com/imgaes/about.webp" },
-    { name: "description", content: "關於我們 About - Zorin audio" },
-    { property: "og:description", content: "關於我們 About - Zorin audio" },
+    { property: "og:image", content: "https://zorin-audio.com/images/about.webp" },
+    { name: "description", content: "Zorin audio" },
+    { property: "og:description", content: "Zorin audio" },
   ],
 });
 useSeoMeta({
-  title: "About - Zorin audio",
-  description: "關於我們 - Zorin audio",
-  ogDescription: "關於我們 - Zorin audio",
-  ogTitle: "About - Zorin audio",
-  ogImage: "https://zorin-audio.com/imgaes/about.webp",
+  title: "Zorin audio",
+  description: "Zorin audio",
+  ogDescription: "Zorin audio",
+  ogTitle: "Zorin audio",
+  ogImage: "https://zorin-audio.com/images/about.webp",
 });
 </script>
 

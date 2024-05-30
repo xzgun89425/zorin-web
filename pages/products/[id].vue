@@ -17,7 +17,7 @@ useHead({
     meta: [
         { property: "og:title", content: "Zorin audio" },
         { property: "og:url", content: "https://zorin-audio.com" },
-        { property: "og:image", content: "https://zorin-audio.com/imgaes/products/1/1.jpg" },
+        { property: "og:image", content: "https://zorin-audio.com/images/products/1/1.jpg" },
         { name: "description", content: "Zorin audio" },
         { property: "og:description", content: "Zorin audio" },
     ],
@@ -27,7 +27,7 @@ useSeoMeta({
     description: "Zorin audio",
     ogDescription: "Zorin audio",
     ogTitle: "Zorin audio",
-    ogImage: "https://zorin-audio.com/imgaes/products/1/1.jpg",
+    ogImage: "https://zorin-audio.com/images/products/1/1.jpg",
 });
 </script>
 
