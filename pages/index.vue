@@ -19,7 +19,7 @@ useHead({
   meta: [
     { property: "og:title", content: "關於我們 About - Zorin audio" },
     { property: "og:url", content: "https://zorin-audio.com" },
-    { property: "og:image", content: "https://zorin-audio.com/about.webp" },
+    { property: "og:image", content: "https://zorin-audio.com/imgaes/about.webp" },
     { name: "description", content: "關於我們 About - Zorin audio" },
     { property: "og:description", content: "關於我們 About - Zorin audio" },
   ],
