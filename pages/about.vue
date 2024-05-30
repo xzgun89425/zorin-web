@@ -9,13 +9,13 @@ useHead({
     { property: "og:description", content: "關於我們 About - Zorin audio" },
   ],
 });
-useSeoMeta({
-  title: "About - Zorin audio",
-  description: "關於我們 - Zorin audio",
-  ogDescription: "關於我們 - Zorin audio",
-  ogTitle: "About - Zorin audio",
-  ogImage: "https://zorin-audio.com/images/about.webp",
-});
+// useSeoMeta({
+//   title: "About - Zorin audio",
+//   description: "關於我們 - Zorin audio",
+//   ogDescription: "關於我們 - Zorin audio",
+//   ogTitle: "About - Zorin audio",
+//   ogImage: "https://zorin-audio.com/images/about.webp",
+// });
 </script>
 
 <template>
