@@ -21,7 +21,7 @@
         "name": "TP-S1 Turntable",
         "retail": "3366",
         "distributor": "1515",
-        "imgs": ["/images/products/2/1.jpg", "/images/products/2/2.jpg"],
+        "imgs": [],
         "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 19 Kg",
         "dimensions": {
             "width": 440,
@@ -38,7 +38,7 @@
         "name": "TP-S5 Turntable",
         "retail": "8578",
         "distributor": "3860",
-        "imgs": ["/images/products/3/1.jpg", "/images/products/3/2.jpg"],
+        "imgs": [],
         "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 28 Kg",
         "dimensions": {
             "width": null,
@@ -56,7 +56,7 @@
         "name": "TP-S7 Turntable",
         "retail": "20630",
         "distributor": "9284",
-        "imgs": ["/images/products/4/1.jpg", "/images/products/4/2.jpg"],
+        "imgs": [],
         "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 60 Kg",
         "dimensions": {
             "width": null,
@@ -74,7 +74,7 @@
         "name": "TP-S9 Turntable",
         "retail": "47,772",
         "distributor": "21498",
-        "imgs": ["/images/products/5/1.jpg", "/images/products/5/2.jpg"],
+        "imgs": [],
         "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)",
         "dimensions": {
             "width": null,
@@ -110,12 +110,7 @@
         "name": "LT-O2 Ionic Type Air-bearing Linear tracking Tonearm",
         "retail": "5320",
         "distributor": "2394",
-        "imgs": [
-            "/images/products/7/1.jpg",
-            "/images/products/7/2.jpg",
-            "/images/products/7/3.jpg",
-            "/images/products/7/4.jpg"
-        ],
+        "imgs": ["/images/products/7/1.jpg", "/images/products/7/2.jpg", "/images/products/7/3.jpg"],
         "TransformerBuiltIn": "",
         "dimensions": {
             "width": null,
@@ -133,7 +128,7 @@
         "name": "PUS-12 Tonearm",
         "retail": "2605",
         "distributor": "1173",
-        "imgs": ["/images/products/8/1.jpg", "/images/products/8/2.jpg"],
+        "imgs": ["/images/products/8/1.jpg", "/images/products/8/2.jpg", "/images/products/8/3.jpg"],
         "TransformerBuiltIn": "",
         "dimensions": {
             "width": null,
@@ -151,7 +146,7 @@
         "name": "AS-2 ION generator Static Eliminator",
         "retail": "1303",
         "distributor": "587",
-        "imgs": ["/images/products/9/1.jpg", "/images/products/9/2.jpg"],
+        "imgs": [],
         "TransformerBuiltIn": "",
         "dimensions": {
             "width": null,

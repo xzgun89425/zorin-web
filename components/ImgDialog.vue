@@ -79,7 +79,7 @@ function chooseImg(i) {
         enter-to-class="transform opacity-100" leave-active-class="transition ease-in"
         leave-from-class="transform opacity-100" leave-to-class="transform opacity-0 ">
         <div v-show="modelValue"
-            class="w-screen h-[100dvh] bg-black/40 fixed top-0 left-0 z-[9998] flex justify-center items-center px-5">
+            class="w-[100vw] h-[100dvh] bg-black/40 fixed top-0 left-0 z-[9998] flex justify-center items-center px-4 md:px-0">
             <div v-click-outside="onClickOutside" v-if="modelValue" class="w-full flex justify-center items-center"
                 :class="className">
                 <button
@@ -90,14 +90,14 @@ function chooseImg(i) {
                             d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
                     </svg>
                 </button>
-                <div class="w-full flex flex-col justify-center items-center">
+                <div class="w-full flex flex-col justify-center items-center ">
                     <div class="w-full flex justify-center items-center">
                         <!-- <button :disabled="prevDisabled" @click="prev"
                             class="text-primary hover:text-primaryHover duration-200 disabled:text-gray-400 disabled:hover:text-gray-400">
                             <KSvgIcon name="angle/icon-left" className="w-12 h-12"></KSvgIcon>
                         </button> -->
-                        <div class="max-h-[600px] bg-black/80 flex justify-center items-center">
-                            <img :src="nowImg" class="aspect-video h-full bg-white" alt="" />
+                        <div class="max-h-[900px] max-w-[1440px]  bg-black/80 flex justify-center items-center ">
+                            <img :src="nowImg" class="w-full h-full bg-white" alt="" />
                         </div>
                         <!-- <button :disabled="nextDisabled" @click="next"
                             class="text-primary hover:text-primaryHover duration-200 disabled:text-gray-400 disabled:hover:text-gray-400">
