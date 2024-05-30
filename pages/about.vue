@@ -14,7 +14,7 @@ useSeoMeta({
   description: "關於我們 - Zorin audio",
   ogDescription: "關於我們 - Zorin audio",
   ogTitle: "About - Zorin audio",
-  ogImage: "",
+  ogImage: "https://zorin-audio.com/imgaes/about.webp",
 });
 </script>
 

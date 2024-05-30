@@ -27,7 +27,7 @@ useSeoMeta({
     description: "Zorin audio",
     ogDescription: "Zorin audio",
     ogTitle: "Zorin audio",
-    ogImage: "",
+    ogImage: "https://zorin-audio.com/imgaes/products/1/1.jpg",
 });
 </script>
 
