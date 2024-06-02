@@ -92,7 +92,13 @@
         "name": "M.R. Ionic Type Airbearing Linear tracking Tonearm",
         "retail": "6950",
         "distributor": "3128",
-        "imgs": ["/images/products/6/1.jpg", "/images/products/6/2.jpg", "/images/products/6/3.jpg"],
+        "imgs": [
+            "/images/products/6/1.jpg",
+            "/images/products/6/2.jpg",
+            "/images/products/6/3.jpg",
+            "/images/products/6/4.jpg",
+            "/images/products/6/5.jpg"
+        ],
         "TransformerBuiltIn": "",
         "dimensions": {
             "width": null,
@@ -110,7 +116,14 @@
         "name": "LT-O2 Ionic Type Air-bearing Linear tracking Tonearm",
         "retail": "5320",
         "distributor": "2394",
-        "imgs": ["/images/products/7/1.jpg", "/images/products/7/2.jpg", "/images/products/7/3.jpg"],
+        "imgs": [
+            "/images/products/7/1.jpg",
+            "/images/products/7/2.jpg",
+            "/images/products/7/3.jpg",
+            "/images/products/6/3.jpg",
+            "/images/products/6/4.jpg",
+            "/images/products/6/5.jpg"
+        ],
         "TransformerBuiltIn": "",
         "dimensions": {
             "width": null,
