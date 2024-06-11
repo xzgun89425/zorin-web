@@ -3,7 +3,7 @@ const route = useRoute();
 const { list } = useProductStore();
 const product = ref(list.filter(e => e.id == route.params.id)[0])
 const TonearmLength = computed(() => {
-    return list.filter(e => e.id == route.params.id)[0].Tonearm.split(',')
+    return list.filter(e => e.id == route.params.id)[0].Tonearm.split(',').length
 });
 
 const imgShow = ref(false)

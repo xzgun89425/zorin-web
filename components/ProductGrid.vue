@@ -21,7 +21,8 @@ function goProduct(id) {
 
 <template>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 lg:p-0">
-        <div v-for="i in items" :key="i.id" class="col-span-1 h-auto bg-gray-100 w-full shadow shadow-gray-400 rounded">
+        <div v-for="i in items.sort((x, y) => x.sort - y.sort)" :key="i.id"
+            class="col-span-1 h-auto bg-gray-100 w-full shadow shadow-gray-400 rounded">
             <div @click="goProduct(i.id)" class="aspect-w-3 aspect-h-2 hover:cursor-pointer"
                 @mousemove="hoverImg(i.imgs, i)" @mouseleave="leaveImg(i.imgs, i)">
                 <img v-if="i.imgs[0]" :src="i.thubnail ? i.thubnail : i.imgs[0]" class="object-cover object-center"
