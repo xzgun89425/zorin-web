@@ -24,7 +24,12 @@
         "retail": "3366",
         "sort": 3,
         "distributor": "1515",
-        "imgs": ["/images/products/2/1.jpg", "/images/products/2/2.jpg", "/images/products/2/3.jpg"],
+        "imgs": [
+            "/images/products/2/1.webp",
+            "/images/products/2/2.webp",
+            "/images/products/2/3.webp",
+            "/images/products/2/4.webp"
+        ],
         "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight is 16 Kg includes tonearm and turntable",
         "dimensions": {
             "width": 410,
@@ -196,7 +201,7 @@
         "retail": "3366",
         "sort": 2,
         "distributor": "1515",
-        "imgs": ["/images/products/10/1.jpg", "/images/products/10/2.jpg", "/images/products/10/3.jpg"],
+        "imgs": ["/images/products/10/1.webp", "/images/products/10/2.webp", "/images/products/10/3.webp"],
         "TransformerBuiltIn": "",
         "dimensions": {
             "width": 470,
