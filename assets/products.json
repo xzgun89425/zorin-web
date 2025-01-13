@@ -47,15 +47,7 @@
         "retail": "8578",
         "sort": 4,
         "distributor": "3860",
-        "imgs": [
-            "/images/products/3/7.jpg",
-            "/images/products/3/1.jpg",
-            "/images/products/3/2.jpg",
-            "/images/products/3/3.jpg",
-            "/images/products/3/4.jpg",
-            "/images/products/3/5.jpg",
-            "/images/products/3/6.jpg"
-        ],
+        "imgs": ["/images/products/3/1.jpg", "/images/products/3/2.jpg", "/images/products/3/3.jpg"],
         "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 24 Kg",
         "dimensions": {
             "width": 490,
