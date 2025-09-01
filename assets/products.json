@@ -22,7 +22,7 @@
         "id": 2,
         "name": "TP-S1 Turntable",
         "retail": "3366",
-        "sort": 3,
+        "sort": 2,
         "distributor": "1515",
         "imgs": [
             "/images/products/2/1.webp",
@@ -66,7 +66,14 @@
         "retail": "20630",
         "sort": 5,
         "distributor": "9284",
-        "imgs": ["/images/products/4/1.jpg", "/images/products/4/2.jpg", "/images/products/4/3.jpg"],
+        "imgs": [
+            "/images/products/4/1.jpg",
+            "/images/products/4/2.jpg",
+            "/images/products/4/3.jpg",
+            "/images/products/4/4.jpg",
+            "/images/products/4/5.jpg",
+            "/images/products/4/6.jpg"
+        ],
         "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 32 Kg",
         "dimensions": {
             "width": 480,
@@ -191,7 +198,7 @@
         "id": 10,
         "name": "TP-S2 Turntable",
         "retail": "3366",
-        "sort": 2,
+        "sort": 3,
         "distributor": "1515",
         "imgs": ["/images/products/10/1.webp", "/images/products/10/2.webp", "/images/products/10/3.webp"],
         "TransformerBuiltIn": "",
