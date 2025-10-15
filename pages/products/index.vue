@@ -1,5 +1,13 @@
 <script setup>
-const { list } = useProductStore();
+const { locale } = useI18n();
+const { listEN, listZh } = useProductStore();
+const list = computed(() => {
+    if (locale.value == 'zh-TW') {
+        return listZh;
+    } else {
+        return listEN;
+    }
+});
 </script>
 
 <template>

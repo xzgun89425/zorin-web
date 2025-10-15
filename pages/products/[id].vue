@@ -1,9 +1,20 @@
 <script setup>
 const route = useRoute();
-const { list } = useProductStore();
-const product = ref(list.filter(e => e.id == route.params.id)[0])
+const { locale } = useI18n();
+const { listEN, listZh } = useProductStore();
+const product = computed(() => {
+    if (locale.value == 'zh-TW') {
+        return listZh.filter(e => e.id == route.params.id)[0];
+    } else {
+        return listEN.filter(e => e.id == route.params.id)[0];
+    }
+});
 const TonearmLength = computed(() => {
-    return list.filter(e => e.id == route.params.id)[0].Tonearm.split(',').length
+    if (locale.value == 'zh-TW') {
+        return listZh.filter(e => e.id == route.params.id)[0].Tonearm.split(',').length
+    } else {
+        return listEN.filter(e => e.id == route.params.id)[0].Tonearm.split(',').length
+    }
 });
 
 const imgShow = ref(false)

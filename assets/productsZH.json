@@ -1,0 +1,215 @@
+[
+    {
+        "id": 1,
+        "name": "TP-S0",
+        "retail": "2280",
+        "sort": 1,
+        "distributor": "1026",
+        "imgs": ["/images/products/1/2.jpg", "/images/products/1/1.jpg", "/images/products/1/3.jpg"],
+        "TransformerBuiltIn": "110V、220V 50/60電壓可用（依不同國家地區）<br/>轉盤重量5kg、總重11Kg",
+        "dimensions": {
+            "width": 300,
+            "depth": 415,
+            "height": 140
+        },
+        "dimensionsNote": "with tonearm",
+        "Tonearm": "PUR-9, Flat type, Precision Ball bearings, statically balanced tonearm, sandwich",
+        "Tonearmtime": null,
+        "description": "實心鋁合金轉盤、磁懸浮金屬軸心、附PUR-9扁平式軸承唱臂<br/>全金屬底座、可調式三點式金屬腳柱.<br/>交流同步電機、皮帶傳動<br/>專利33.3/45 rpm機械式手動切換",
+        "features": "緊湊型設計、容易溶入一般家庭環境、或第二套小系統、移動及安裝方便.<br/><br/>唱盤水平、唱臂VTA、針壓及抗滑皆可調整<br/><br/>所有零件均在台灣製造"
+    },
+    {
+        "id": 2,
+        "name": "TP-S1",
+        "retail": "3366",
+        "sort": 2,
+        "distributor": "1515",
+        "imgs": [
+            "/images/products/2/1.webp",
+            "/images/products/2/2.webp",
+            "/images/products/2/3.webp",
+            "/images/products/2/4.webp"
+        ],
+        "TransformerBuiltIn": "110V、220V 50/60電壓可用（依不同國家地區）<br/>轉盤重量7kg、總重16Kg",
+        "dimensions": {
+            "width": 410,
+            "depth": 350,
+            "height": 135
+        },
+        "Tonearm": "PSS-9: Tangent type, uni-pivot bearings, statically balanced tonearm",
+        "Tonearmtime": 3,
+        "description": "實心鋁合金轉盤、磁懸浮金屬軸心、附PSS-9 9吋單點式唱臂.實心壓克力底座、可調式三點式金屬腳柱.<br/>交流同步電機、皮帶傳動<br/>專利33.3/45 rpm機械式手動切換",
+        "features": "緊湊型設計、容易溶入一般家庭環境、或第二套小系統、移動及安裝方便.<br/><br/>唱盤水平、唱臂VTA、針壓及抗滑皆可調整<br/><br/>所有零件均在台灣製造"
+    },
+    {
+        "id": 10,
+        "name": "TP-S2",
+        "retail": "3366",
+        "sort": 3,
+        "distributor": "1515",
+        "imgs": ["/images/products/10/1.webp", "/images/products/10/2.webp", "/images/products/10/3.webp"],
+        "TransformerBuiltIn": "110V、220V 50/60電壓可用（依不同國家地區）<br/>轉盤重量7kg、總重18Kg",
+        "dimensions": {
+            "width": 470,
+            "depth": 350,
+            "height": 145
+        },
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "實心鋁合金轉盤、磁懸浮金屬軸心、馬達分離式設計、唱臂另購.<br/>含一片9吋壓克力臂板、亦有12吋壓克力或金屬臂板可供選購.<br/><br/>轉盤座及馬達座皆爲實心壓克力底座、可調式三點式金屬腳柱.<br/>交流同步電機、皮帶傳動<br/>專利33.3/45 rpm機械式手動切換",
+        "features": "馬達座及唱盤座分離式設計、更低的噪訊、更大的安裝便利性、附有4個臂板安裝位置、升級便利.<br/><br/>唱盤水平、馬達座水平、皆可調整<br/><br/>所有零件均在台灣製造"
+    },
+    {
+        "id": 3,
+        "name": "TP-S5",
+        "retail": "8578",
+        "sort": 4,
+        "distributor": "3860",
+        "imgs": ["/images/products/3/5.jpg", "/images/products/3/6.jpg", "/images/products/3/7.jpg"],
+        "TransformerBuiltIn": "110V、220V 50/60電壓可用（依不同國家地區）<br/>轉盤重量12kg、總重24Kg",
+        "dimensions": {
+            "width": 490,
+            "depth": 390,
+            "height": 175
+        },
+        "dimensionsNote": null,
+        "Tonearm": "",
+        "Tonearmtime": 3,
+        "description": "實心鋁合金轉盤、磁懸浮金屬軸心、馬達分離式設計、唱臂另購.含ー片9吋金屬臂板、亦有12吋金屬臂板可供選擇<br/><br/>轉盤座及馬達座皆爲實心金屬底座、可調式三點式金屬腳柱.<br/>交流同步電機、皮帶傳動<br/>專利33.3/45 rpm機械式手動切換",
+        "features": "馬達座及唱盤座分離式設計、更低的噪訊、更大的安裝便利性、附有3個臂板安裝位置、升級便利.<br/><br/>唱盤水平可調<br/><br/>所有零件均在台灣製造"
+    },
+    {
+        "id": 4,
+        "name": "TP-S7",
+        "retail": "20630",
+        "sort": 5,
+        "distributor": "9284",
+        "imgs": [
+            "/images/products/4/1.jpg",
+            "/images/products/4/2.jpg",
+            "/images/products/4/3.jpg",
+            "/images/products/4/4.jpg",
+            "/images/products/4/5.jpg",
+            "/images/products/4/6.jpg"
+        ],
+        "TransformerBuiltIn": "110V、220V 50/60電壓可用（依不同國家地區）<br/>轉盤重量14kg、總重32Kg",
+        "dimensions": {
+            "width": 480,
+            "depth": 410,
+            "height": 220
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": 3,
+        "description": "2片式實心鋁合金轉盤、雙層懸浮、磁力驅動、更低的底噪、浮凸的音像、更寬深的音場表現.<br/><br/>金屬軸心、馬達分離式設計、唱臂另購.含ー片9吋金屬臂板、亦有12吋金屬臂板可供選擇<br/><br/>轉盤座及馬達座皆爲實心金屬底座、可調式三點式金屬腳柱.<br/>交流同步電機、皮帶傳動<br/>專利33.3/45 rpm機械式手動切換",
+        "features": "馬達座及唱盤座分離式設計、更低的噪訊、更大的安裝便利性、附有3個臂板安裝位置、升級便利.<br/><br/>唱盤及馬達座水平可調<br/><br/>所有零件均在台灣製造"
+    },
+    {
+        "id": 5,
+        "name": "TP-S9 產品優化中",
+        "retail": "47,772",
+        "sort": 6,
+        "distributor": "21498",
+        "imgs": [],
+        "TransformerBuiltIn": "110V、220V 50/60電壓可用（依不同國家地區）<br/>上轉盤重量12kg、下轉盤重量12kg、總重60kg.",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "Linear tracking, air bearings, statically balanced tonearm",
+        "Tonearmtime": 3,
+        "description": "上下同軸心正反轉雙實心1鋁合金轉盤、上下轉盤均磁懸浮、上下轉盤正反轉如加了陀螺儀般的穩定、更低的底噪、浮凸的音像、更寬深的音場、更強大的動態、就算在弱音的狀態下.<br/><br/>金屬軸心、双馬達驅動式設計、含S9專用拱門型氣浮正切唱臂、含靜音泵浦及AS-1離子套件.<br/><br/>轉盤座爲實心金屬底座、可調式4點式金屬腳柱.<br/>交流同步電機、雙馬達、雙皮帶傳動專利33.3/45 rpm機械式手動切換",
+        "features": "另附有2個臂板安裝位置、升級便利.<br/><br/>唱盤及唱臂水平可調<br/><br/>所有零件均在台灣製造"
+    },
+    {
+        "id": 6,
+        "name": "M.R. Ionic Type Airbearing Linear tracking Tonearm",
+        "retail": "6950",
+        "sort": 7,
+        "distributor": "3128",
+        "imgs": [
+            "/images/products/6/1.jpg",
+            "/images/products/6/2.jpg",
+            "/images/products/6/3.jpg",
+            "/images/products/6/4.jpg",
+            "/images/products/6/5.jpg"
+        ],
+        "TransformerBuiltIn": "",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "Type: Air-bearing tonearm<br/>Tracking: Linear tracking<br/>Included: AS-1+Air pump",
+        "features": "AS-1(patented technology) is used on the air-bearing tone arm and is installed between the air pump and the airbearing arm to eliminate the static electricity generated by the friction of the air flow through the air outlet, and the static electricity will cause the bushing and air outlet produces adsorption force, which affects sound performance and flexibility. After installing AS-1(device which eliminate the static electricity), a significant differences between the original sound can be observed.<br/><br/>Mechanism designed to easily clean the discharge needle. Normally, after hundreds of hours of use, crystals may form on the surface of the needle tip. If not cleaned, it will cause the ion generator‘s power reduced or even ineffective.<br/><br/>The air pump can be adjusted according to the weight of the cartridge.<br/><br/>Silence: With medical-grade cylinders partial pressure, stabilize and filter the air. The air pump of our air-bearing tonearm can provide noiseless and constant air pressure.<br/><br/>Durable: Very durable, air- pump’s failure rate is under 1% and it’s life span can up to 10-20 years.<br/><br/>Original mechanical design, make VTA adjustable while listening.<br/><br/>High-rigidity tonearm made by stainless steel, reduce abrasion when lifting and dropping the tonearm, make our product more durable."
+    },
+    {
+        "id": 7,
+        "name": "LT-O2 Ionic Type Air-bearing Linear tracking Tonearm",
+        "retail": "5320",
+        "sort": 8,
+        "distributor": "2394",
+        "imgs": [
+            "/images/products/7/1.jpg",
+            "/images/products/7/2.jpg",
+            "/images/products/7/3.jpg",
+            "/images/products/6/3.jpg",
+            "/images/products/6/4.jpg",
+            "/images/products/6/5.jpg"
+        ],
+        "TransformerBuiltIn": "",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "Type: Air-bearing tonearm<br/>Tracking: Linear tracking<br/>AS-1+Air pump is included",
+        "features": "AS-1(patented technology) is used on the air-bearing tone arm and is installed between the air pump and the airbearing arm to eliminate the static electricity generated by the friction of the air flow through the air outlet, and the static electricity will cause the bushing and air outlet produces adsorption force, which affects sound performance and flexibility. After installing AS-1(device which eliminate the static electricity), a significant differences between the original sound can be observed.<br/><br/>Mechanism designed to easily clean the discharge needle. Normally, after hundreds of hours of use, crystals may form on the surface of the needle tip. If not cleaned, it will cause the ion generator‘s power reduced or even ineffective.<br/><br/>The guide board under the tube can guide extra ION air to the records, not only remove the static of the tonearm, but also remove the statics generated with records are playing.<br/><br/>The air pump can be adjusted according to the weight of the cartridge.<br/><br/>Silence: With medical-grade cylinders partial pressure, stabilize and filter the air. The air pump of our air-bearing tonearm can provide noiseless and constant air pressure.<br/><br/>Durable: Very durable, air- pump’s failure rate is under 1% and it’s life span can up to 10-20 years.<br/><br/>Original mechanical design, make VTA adjustable while listening.<br/><br/>High-rigidity tonearm made by stainless steel, reduce abrasion when lifting and dropping the tonearm, make our product more durable."
+    },
+    {
+        "id": 8,
+        "name": "PUS-12 Tonearm",
+        "retail": "2605",
+        "sort": 9,
+        "distributor": "1173",
+        "imgs": ["/images/products/8/1.jpg", "/images/products/8/2.jpg", "/images/products/8/3.jpg"],
+        "TransformerBuiltIn": "",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "Type: Statically balanced tonearm<br/>Effective Tonearm Length: 306mm<br/>Overhang: 13mm<br/>Offset Angle: 17.6<br/>Available cartridge weight: 5-20g",
+        "features": "Original head shell design, Overhang and Offset Angle can be adjust on the head shell<br/>Original mechanical design, make VTA adjustable while listening<br/>Counterweight on the rear part can be used to adjust the azimuth<br/>Uni-pivot oil damped design, fulcrum, side counterweight and counterweight on the rear part is on the same surface, which can reduce wobbling and provide stable tracking.<br/>Detachable titanium-plating brass counterweight is easy to install on different type of tonearm<br/>High-rigidity tonearm made by stainless steel, reduce abrasion when lifting and dropping the tonearm, make our product more durable."
+    },
+    {
+        "id": 9,
+        "name": "AS-2 ION generator Static Eliminator",
+        "retail": "1303",
+        "sort": 10,
+        "distributor": "587",
+        "imgs": ["/images/products/9/1.jpg", "/images/products/9/2.jpg", "/images/products/9/3.jpg"],
+        "TransformerBuiltIn": "",
+        "dimensions": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "dimensionsNote": "",
+        "Tonearm": "",
+        "Tonearmtime": null,
+        "description": "Both AS-1 and AS-2 generate positive and negative ion to eliminate static electricity<br/>Fanless design<br/>External stand included",
+        "features": "AS-2 is aimed at eliminating static electricity on the surface of records. Unlike AS-1, AS-2 does not require the air flow of the pump for heat dissipation. The ion release hole of AS-2 is at the bottom of the rectangular tube. When playing the record, the distance from the record is only 1 to 2 cm (height is adjustable), which can ensure the effect of neutralizing static electricity.<br/>Mechanism designed to easily clean the discharge needle. Normally, after hundreds of hours of use, crystals may form on the surface of the needle tip. If not cleaned, it will cause the ion generator‘s power reduced or even ineffective.<br/>Light-weight, easy to install and external stand provide more flexibly, can be used in all kinds of turntables."
+    }
+]
