@@ -11,9 +11,9 @@ const product = computed(() => {
 });
 const TonearmLength = computed(() => {
     if (locale.value == 'zh-TW') {
-        return listZh.filter(e => e.id == route.params.id)[0].Tonearm.split(',').length
+        return listZh.filter(e => e.id == route.params.id)[0].Tonearm.split(',').filter(e => e !== '').length
     } else {
-        return listEN.filter(e => e.id == route.params.id)[0].Tonearm.split(',').length
+        return listEN.filter(e => e.id == route.params.id)[0].Tonearm.split(',').filter(e => e !== '').length
     }
 });
 
@@ -86,10 +86,10 @@ useHead({
             </div>
         </Container>
         <Container v-if="product.TransformerBuiltIn">
-            <p class="font-bold text-lg px-4 lg:px-0">Transformer built-in:</p>
+            <p class="font-bold text-lg px-4 lg:px-0">Specifications</p>
             <p v-html="product.TransformerBuiltIn" class="mt-0 md:mt-4 px-4 lg:px-0 leading-8"></p>
         </Container>
-        <Container v-if="product.Tonearmtime || TonearmLength > 0">
+        <Container v-if="product.Tonearmtime || TonearmLength > 1">
             <p class="font-bold text-lg px-4 lg:px-0">Tonearm:</p>
             <div class="flex flex-wrap gap-2 mt-2"> <span v-show="item" v-for="item in product.Tonearm.split(',')"
                     :key="item" class="py-1 px-2 bg-gray-200 rounded-md text-sm font-bold">{{ item }}</span></div>

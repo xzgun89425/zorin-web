@@ -6,7 +6,7 @@
         "sort": 1,
         "distributor": "1026",
         "imgs": ["/images/products/1/2.jpg", "/images/products/1/1.jpg", "/images/products/1/3.jpg"],
-        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>Total weight is 11Kg includes tonearm and turntable.",
+        "TransformerBuiltIn": "•Compatible with 110V and 220V, 50/60Hz (depending on country/region).<br/>•Platter weight: 5 kg<br/>•total weight: 11 kg.",
         "dimensions": {
             "width": 300,
             "depth": 415,
@@ -15,8 +15,8 @@
         "dimensionsNote": "with tonearm",
         "Tonearm": "PUR-9, Flat type, Precision Ball bearings, statically balanced tonearm, sandwich",
         "Tonearmtime": null,
-        "description": "Solid aluminum turntable, platter weighing up to 5.5 kg<br/>Magnetic floating metal axis<br/>Full metal base, AC synchronous motor,<br/>Patented 33/45 manual speed switching design<br/>Single motor belt drive design",
-        "features": "Patented manual switching design<br/><br/>avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/><br/>No suspension design, the rotation inertia and auditory energy brought by it can definitely easily challenge the famous European and American models at twice the price.<br/><br/>With micro inner hexagonal plate hand design, very easy to adjust the tonearm’s VTA<br/><br/>All parts are completely manufactured in Taiwan, except motor."
+        "description": "•Solid aluminum alloy turntable platter<br/>•magnetic levitation metal spindle, equipped with PUR-9 flat bearing tonearm.<br/>•Full-metal base with adjustable three-point metal feet.<br/>•AC synchronous motor, belt drive system.<br/>•Patented mechanical manual switch for 33.3/45 rpm speeds.",
+        "features": "•Compact and elegant form factor blends seamlessly into any home audio environment<br/>Ideal for secondary or space-conscious hi-fi systems.<br/>•Easy to set up, move, and install.<br/>•Fully adjustable platter leveling, tonearm VTA (Vertical Tracking Angle), tracking force, and anti-skating.<br/>All components are made in Taiwan."
     },
     {
         "id": 2,
@@ -30,7 +30,7 @@
             "/images/products/2/3.webp",
             "/images/products/2/4.webp"
         ],
-        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight is 16 Kg includes tonearm and turntable",
+        "TransformerBuiltIn": "•Compatible with 110V and 220V, 50/60Hz (depending on country/region).<br/>•Platter weight: 7 kg<br/>•total weight: 16 kg.",
         "dimensions": {
             "width": 410,
             "depth": 350,
@@ -38,8 +38,8 @@
         },
         "Tonearm": "PSS-9: Tangent type, uni-pivot bearings, statically balanced tonearm",
         "Tonearmtime": 3,
-        "description": "Solid aluminum turntable, platter weighing up to 7 kg<br/>Magnetic floating metal axis<br/>Full metal base, adopted with three-point foot column design<br/>AC synchronous motor, Patented 33/45 manual speed switching design<br/>Single motor belt drive design",
-        "features": "Patented manual switching design avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/>Three-point foot column design, the most stable way of turntable.<br/>Matte finished platter, calm and elegant.<br/>Motor, smooth rotation speed with extremely low noise.<br/>Can install 3 tonearms, more flexible.<br/>All parts are completely manufactured in Taiwan, except motor."
+        "description": "•Solid aluminum alloy platter with magnetic levitation metal spindle; includes PSS-9 9-inch unipivot tonearm.<br/>•Solid acrylic base with adjustable three-point metal feet.<br/>•AC synchronous motor, belt drive system.<br/>•Patented mechanical manual speed switch for 33.3 / 45 rpm.",
+        "features": "•Compact design that easily integrates into typical home environments or secondary audio systems; convenient for relocation and installation.<br/>•Adjustable platter level, tonearm level, VTA (Vertical Tracking Angle), tracking force, and anti-skating.<br/>All components are made in Taiwan."
     },
     {
         "id": 3,
@@ -48,7 +48,7 @@
         "sort": 4,
         "distributor": "3860",
         "imgs": ["/images/products/3/5.jpg", "/images/products/3/6.jpg", "/images/products/3/7.jpg"],
-        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 24 Kg",
+        "TransformerBuiltIn": "•Compatible with 110V and 220V, 50/60Hz (depending on country/region).<br/>•Platter weight: 12 kg<br/>•total weight: 24 kg.",
         "dimensions": {
             "width": 490,
             "depth": 390,
@@ -57,8 +57,8 @@
         "dimensionsNote": null,
         "Tonearm": "",
         "Tonearmtime": 3,
-        "description": "Solid aluminum turntable, platter weighing up to 12 kg<br/>Magnetic floating metal axis<br/>Full metal base, adopted with three-point foot column design<br/>AC synchronous motor, Patented 33/45 manual speed switching design<br/>Single motor belt drive design",
-        "features": "Patented manual switching design avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/>Three-point foot column design, the most stable way of turntable.<br/>Matte finished platter, calm and elegant.<br/>Motor, smooth rotation speed with extremely low noise. Motor is separated from the platter, reduce vibration.<br/>Can install 3 tonearms, more flexible.<br/>All parts are completely manufactured in Taiwan, except motor."
+        "description": "•Solid aluminum-alloy platter, magnetic levitation metal spindle, motor and platter base are separate units; tonearm sold separately.<br/>•Includes one 9-inch metal armboard; a 12-inch metal armboard is also available as an option.<br/>•Both the platter base and motor base are made of solid metal with adjustable three-point metal feet.<br/>•AC synchronous motor, belt-drive system.<br/>•Patented mechanical manual speed switch for 33.3 / 45 rpm.",
+        "features": "•Separate motor and platter base design for lower noise and greater installation flexibility.<br/>•Equipped with three tonearm mounting positions, allow user to easily upgrade.<br/>•Turntable level is adjustable.<br/>All parts are made in Taiwan."
     },
     {
         "id": 4,
@@ -74,7 +74,7 @@
             "/images/products/4/5.jpg",
             "/images/products/4/6.jpg"
         ],
-        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)<br/>The total weight of the turntable is 32 Kg",
+        "TransformerBuiltIn": "•Compatible with 110V/220V, 50/60Hz (depending on country or region).<br/>•Platter weight: 14 kg<br/>•Total weight: 32 kg.",
         "dimensions": {
             "width": 480,
             "depth": 410,
@@ -83,8 +83,8 @@
         "dimensionsNote": "",
         "Tonearm": "",
         "Tonearmtime": 3,
-        "description": "Solid 2-piece aluminum platter, dual-layer magnetic levitation, magnetic drive, lower noise floor, more prominent soundstage.<br/>Patented manual switching design avoids the impact of traditional electronic switching circuits on the motor and cartridge.<br/>Three-point footer design creates the most stable turntable platter.<br/>Matte finish platter, calm and elegant.<br/>Motor speed is stable with extremely low noise. Motor and platter are separated to effectively reduce vibration.<br/>Anti-static platter<br/>Can install three tonearms for more flexibility.<br/>All parts are made in Taiwan.",
-        "features": "Patented manual switching design avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/>Three-point foot column design, the most stable way of turntable.<br/>Matte finished platter, calm and elegant.<br/>Motor, smooth rotation speed with extremely low noise. Motor is separated from the platter, reduce vibration.<br/>Auto speed control system and power supply, RPM is always 33 1/3 or 45.<br/>Vacuum suction platter, a solution when facing a curly record, sucking power is adjustable.<br/>Anti-static platter.<br/>Can install 3 tonearms, more flexible.<br/>All parts are completely manufactured in Taiwan, except motor."
+        "description": "•Two layering solid aluminum-alloy platter with double-layer suspension and magnetic drive system, providing even lower background noise, enhanced sound image depth, and a wider and deeper soundstage.<br/>•Metal spindle, motor and platter base are separate units; tonearm sold separately.<br/>•Includes one 9-inch metal armboard; a 12-inch metal armboard is also available as an option.<br/>•Both the platter base and motor base are made of solid metal, equipped with adjustable three-point metal feet.<br/>•AC synchronous motor with belt drive system.<br/>•Patented mechanical manual speed switch for 33.3 / 45 rpm.",
+        "features": "Separate motor and turntable base design for lower background noise and easier installation.<br/>Equipped with three tonearm mounting positions, allow user to easily upgrade.<br/>•Both turntable and motor base levels are adjustable.<br/>All parts are made in Taiwan."
     },
     {
         "id": 5,
@@ -93,7 +93,7 @@
         "sort": 6,
         "distributor": "21498",
         "imgs": [],
-        "TransformerBuiltIn": "110V, 220V 50/60HZ voltage is available<br/>AC female socket, with basic power cord<br/>Replaceable power cord<br/>(220V 50HZ needs to be informed in advance)",
+        "TransformerBuiltIn": "Compatible with 110V / 220V, 50/60Hz (depending on country/region).<br/>Upper platter weight: 12 kg<br/>Lower platter weight: 12 kg<br/>Total weight: 60 kg",
         "dimensions": {
             "width": null,
             "depth": null,
@@ -102,8 +102,8 @@
         "dimensionsNote": "",
         "Tonearm": "Linear tracking, air bearings, statically balanced tonearm",
         "Tonearmtime": 3,
-        "description": "Dual platter structure, all platters are made by solid aluminum, upper platter weighing up to 12 kg, lower platter weighing up to 12 kg<br/>Magnetic floating metal axis<br/>Full metal base, adopted with three-point foot column design<br/>AC synchronous motor<br/>Patented 33/45 manual speed switching design<br/>Single motor belt drive design",
-        "features": "Patented manual switching design avoid the impact of traditional electronic switching circuits on motors and cartridges.<br/>Three-point foot column design, the most stable way of turntable.<br/>Matte finished platter, calm and elegant.<br/>Motor, smooth rotation speed with extremely low noise. Motor is separated from the platter, reduce vibration.<br/>Auto speed control system and power supply, RPM is always 33 1/3 or 45.<br/>The coaxial forward and reverse dual turntable structure makes the background clearer, lowers the noise, and makes the details richer.<br/>Vacuum suction platter, a solution when facing a curly record, sucking power is adjustable.<br/>Anti-static platter.<br/>With an air-bearing linear tracking tonearm.<br/>Can install 3 tonearms, more flexible.<br/>All parts are completely manufactured in Taiwan, except motor."
+        "description": "•Dual solid aluminum alloy platters with coaxial forward/reverse rotation; both upper and lower platters utilize magnetic levitation. The counter-rotating design provides gyro-like stability, an ultra-low noise floor, heightened sound image solidity, and a soundstage of remarkable width, depth, and dynamic scale — even in quiet passages.<br/>•Metal spindle, dual-motor drive system<br/>•Equipped with the exclusive S9 arched air-bearing tangential tonearm, a silent air-pump, and the AS-1 ionization module for optimal static control and tracking precision.<br/>•The turntable base is made of solid metal with adjustable four-point metal foot pillars.<br/>•Uses AC synchronous motors, dual-motor dual-belt drive<br/>•Patented mechanical manual speed switch for 33.3 / 45 rpm.",
+        "features": "•Includes two additional armboard mounting positions for convenient upgrades.<br/>•Adjustable turntable and tonearm leveling.<br/>All components are made in Taiwan."
     },
     {
         "id": 6,
@@ -201,7 +201,7 @@
         "sort": 3,
         "distributor": "1515",
         "imgs": ["/images/products/10/1.webp", "/images/products/10/2.webp", "/images/products/10/3.webp"],
-        "TransformerBuiltIn": "",
+        "TransformerBuiltIn": "•Compatible with 110V and 220V, 50/60Hz (depending on country/region).<br/>•Platter weight: 7 kg<br/>•total weight: 18 kg.",
         "dimensions": {
             "width": 470,
             "depth": 350,
@@ -209,7 +209,7 @@
         },
         "Tonearm": "",
         "Tonearmtime": null,
-        "description": "Solid aluminum turntable, platter weighing up to 7 kg<br/>The total weight of the turntable is 18 Kg",
-        "features": ""
+        "description": "•Solid aluminum alloy platter with magnetic levitation metal spindle; motor and platter base are separate units; tonearm sold separately.<br/>•Includes one 9-inch acrylic armboard; optional 12-inch acrylic or metal armboards available.<br/>•Both platter base and motor base are made of solid acrylic with adjustable three-point metal feet.<br/>•AC synchronous motor, belt-drive system.<br/>•Patented mechanical manual speed switch for 33.3 / 45 rpm.",
+        "features": "•Separate motor and platter base design for lower noise and greater installation flexibility.<br/>•Equipped with four armboard mounting positions, allow user to easily upgrade.<br/>•Adjustable platter and motor base leveling.<br/>All components are made in Taiwan."
     }
 ]
